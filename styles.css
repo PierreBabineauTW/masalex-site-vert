@@ -141,6 +141,8 @@ footer a{transition:color .15s,padding-left .15s}footer a:hover{padding-left:4px
 #top.show{opacity:1;pointer-events:auto}
 #top:hover{background:var(--em);border-color:var(--em)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* fix curseur : aucun déplacement au survol — ombres/couleurs seules, l'élément ne glisse plus sous la souris */
+.btn-p:hover,.btn-d:hover,.btn-g:hover,.card:hover,.role:hover,.pill:hover,.tbtn:hover,.feat:hover,.t-card:hover,.stat:hover,.c-cell .btn:hover{transform:none!important}
 /* ---- v7 premium motion & editorial ---- */
 #progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--em),var(--mint));z-index:80}
 .hero-bg{animation:kenburns 24s ease-in-out infinite alternate}
