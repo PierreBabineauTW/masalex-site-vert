@@ -1,0 +1,10 @@
+# Site Masalex — dépôt dédié (le dossier parent Documents est un autre dépôt, ne pas mélanger)
+# Dossier d'un autre workflow (clone paralléle) : on ne le versionne pas ici
+/verdicta-clone/
+# Système
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+# Dépendances éventuelles
+node_modules/
