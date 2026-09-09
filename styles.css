@@ -140,6 +140,13 @@ footer a{transition:color .15s,padding-left .15s}footer a:hover{padding-left:4px
 #top{position:fixed;right:22px;bottom:22px;width:52px;height:52px;border-radius:var(--r);background:var(--navy);color:#fff;border:1px solid var(--navy);font-size:20px;cursor:pointer;opacity:0;pointer-events:none;transition:.25s;z-index:60}
 #top.show{opacity:1;pointer-events:auto}
 #top:hover{background:var(--em);border-color:var(--em)}
+.btn-mini{padding:10px 16px;font-size:13px}
+#jobm{position:fixed;inset:0;z-index:100;display:none}
+#jobm.open{display:block;animation:fadeSlide .25s ease both}
+.jobm-veil{position:absolute;inset:0;background:rgba(10,18,26,.62)}
+.jobm-card{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(620px,92vw);max-height:86vh;overflow:auto;background:#fff;border:2px solid var(--ink);border-radius:6px;padding:38px;box-shadow:10px 10px 0 var(--ink)}
+.jobm-x{position:absolute;top:12px;right:12px;width:42px;height:42px;border:2px solid var(--ink);background:#fff;font-size:17px;cursor:pointer;border-radius:var(--r)}
+.jobm-x:hover{background:var(--ink);color:#fff}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 /* fix curseur : aucun déplacement au survol — ombres/couleurs seules, l'élément ne glisse plus sous la souris */
 .btn-p:hover,.btn-d:hover,.btn-g:hover,.card:hover,.role:hover,.pill:hover,.tbtn:hover,.feat:hover,.t-card:hover,.stat:hover,.c-cell .btn:hover{transform:none!important}
