@@ -164,6 +164,8 @@ details[open]>*:not(summary){animation:fadeSlide .35s ease both}
 .secnum::after{content:"";flex:1;height:1px;background:var(--line)}
 .ic{display:flex;align-items:center;justify-content:center;width:52px;height:52px;background:var(--ink);color:#fff;border-radius:var(--r)}
 .ic svg{width:24px;height:24px;display:block}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+@media(max-width:980px){.about-grid{grid-template-columns:1fr}}
 h1,h2{text-wrap:balance}
 p,.role p,.card p{text-wrap:pretty}
 .btn:active{transform:translateY(1px) scale(.99)}

@@ -1,6 +1,8 @@
 # Site Masalex — dépôt dédié (le dossier parent Documents est un autre dépôt, ne pas mélanger)
-# Dossier d'un autre workflow (clone paralléle) : on ne le versionne pas ici
+# Dossiers d'autres workflows (clones paralleles) : hors perimetre, ne pas versionner
 /verdicta-clone/
+/pinza-clone/
+/hiibiza-clone/
 # Système
 .DS_Store
 Thumbs.db
